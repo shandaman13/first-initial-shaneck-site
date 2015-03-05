@@ -23,7 +23,64 @@ img {
   width: 200px;
   height: 400px;
 }
+#form {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	float: center;}
+#dropdown
+{	background: red;
+	float: left;
+	width: 7%;
+	height: 50%;
+	border: double;
+	border-color: #00274c;}
 
+#dropdown li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#dropdown li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 60px;
+	background: #00274c;
+	color: red;
+	text-align: center;
+	text-decoration: none}
+
+#dropdown li a:hover
+{	background: #00274c;}
+
+#dropdown div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#dropdown div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #00274c;
+		color: red;
+		font: 11px arial}
+
+	#dropdown div a:hover
+	{	background: red;
+		color: white}
+    
 .top-p {
   text-align: center;
   margin-top: 5%;
@@ -72,7 +129,64 @@ img {
   width: 75px;
   height: auto;
  }
+#form {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	float: center;}
+#dropdown
+{	background: red;
+	float: left;
+	width: 7%;
+	height: 50%;
+	border: double;
+	border-color: #00274c;}
 
+#dropdown li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#dropdown li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 60px;
+	background: #00274c;
+	color: red;
+	text-align: center;
+	text-decoration: none}
+
+#dropdown li a:hover
+{	background: #00274c;}
+
+#dropdown div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#dropdown div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #00274c;
+		color: red;
+		font: 11px arial}
+
+	#dropdown div a:hover
+	{	background: red;
+		color: white}
+    
  .top-p {
    text-align: center;
    margin-top: 10%;
@@ -126,7 +240,64 @@ img {
     width: 100px;
     height: auto;
   }
+#form {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	float: center;}
+#dropdown
+{	background: red;
+	float: left;
+	width: 7%;
+	height: 50%;
+	border: double;
+	border-color: #00274c;}
 
+#dropdown li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#dropdown li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 60px;
+	background: #00274c;
+	color: red;
+	text-align: center;
+	text-decoration: none}
+
+#dropdown li a:hover
+{	background: #00274c;}
+
+#dropdown div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#dropdown div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #00274c;
+		color: red;
+		font: 11px arial}
+
+	#dropdown div a:hover
+	{	background: red;
+		color: white}
+    
   .top-p {
     text-align: center;
     margin-top: 7%;
@@ -228,7 +399,64 @@ img {
     width: 200px;
     height: 200px;
   }
+#form {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	float: center;}
+#dropdown
+{	background: red;
+	float: left;
+	width: 7%;
+	height: 50%;
+	border: double;
+	border-color: #00274c;}
 
+#dropdown li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#dropdown li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 60px;
+	background: #00274c;
+	color: red;
+	text-align: center;
+	text-decoration: none}
+
+#dropdown li a:hover
+{	background: #00274c;}
+
+#dropdown div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#dropdown div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #00274c;
+		color: red;
+		font: 11px arial}
+
+	#dropdown div a:hover
+	{	background: red;
+		color: white}
+    
   .top-p {
     text-align: center;
     margin-top: 5%;

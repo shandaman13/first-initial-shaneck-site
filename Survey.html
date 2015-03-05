@@ -1,0 +1,75 @@
+<div id="form">
+		<form name="survey" method=post action="./cgi_bin/confirm1.cgi">
+			<table align="center">
+				<tr>
+					<td>
+					First Name: <input type="text" name="FirstName" maxlength="10" value="" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+					What Is Your Age(In years):<input type="text" name="Age" maxlength="10" value="" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+					Email: <input type="text" name="Email" value="" />
+					<td>
+				</tr>
+				<tr>
+					<td>
+					<fieldset>
+						<legend>How Visually Appealing Was This Site?</legend>
+							<select name="Q1">
+								<option value="VeryAppealing" name="Q1">Very Appealing</option>
+								<option value="SomeAppealing" name="Q1">Somewhat Appealing</option>
+								<option value="NotVeryA" name="Q1">Not Very Appealing</option>
+								<option value="Terrible" name="Q1">Terrible</option>
+					</fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<fieldset>
+						<legend>Was This Site Information Useful?</legend>
+						Yes <input type="radio" name="Q2" value="yes" />
+						No <input type="radio" name="Q2" value="no" />
+					</fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<fieldset>
+						<legend>Post Any Comments Here:</legend>
+						<textarea name="comments" rows="10" cols="30">
+						</textarea>
+					</fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<input type="submit" value="Submit" onClick="validate()" >
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	</div>
+<script>
+function validate()
+{
+var First=document.survey.FirstName.value;
+var Age=document.survey.age.value;
+if (First==null || First=="")
+  { 
+  alert("Please Put in Valid Name");
+  }
+if (Age==null || Last==""){
+  alert("Please Put in Valid Age");
+  }
+  if(document.survey.Q2.checked){}
+  else{ alert("Please Answer Yes or No");}
+  return false;
+}
+  <body>
+</html>
