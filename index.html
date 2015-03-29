@@ -57,6 +57,25 @@ document.onclick = mclose;
     <meta name="twitter:url" content="https://github.com/shandaman13"/>
     <meta name="twitter:description" content="My Information."/>
   </head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+</script>
+</head>
+<body>
+
+<p class="icons-p">To display only my skills click the Hide button below.</p>
+<ul class="icon-p">
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+</ul>
   <body>
     <div class="body-container">
 	<div class="My Information." id="My Info">
