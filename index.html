@@ -1,34 +1,5 @@
 <!DOCTYPE html>
-<script>
-var timeout	= 500;
-var closetimer	= 0;
-var ddmenuitem	= 0;
-
-function mopen(id)
-{	
-	mcancelclosetime();
-	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
-	ddmenuitem = document.getElementById(id);
-	ddmenuitem.style.visibility = 'visible';
-}
-function mclose()
-{
-	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
-}
-function mclosetime()
-{
-	closetimer = window.setTimeout(mclose, timeout);
-}
-function mcancelclosetime()
-{
-	if(closetimer)
-	{
-		window.clearTimeout(closetimer);
-		closetimer = null;
-	}
-}
-document.onclick = mclose; 
-</script>	
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
 </HEAD>
 <BODY>
 	<div id="container">
@@ -41,18 +12,12 @@ document.onclick = mclose;
 					onmouseover="mcancelclosetime()" 
 					onmouseout="mclosetime()">
 					<a href="Survey.html">Survey!</a>
-					<a href="#My Infomation.">My Info<a/>
 			</div>
 		</li>
 	</div>
 <html>
   <head>
     <title>Scott Shaneck</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
-	<!--Example 5 Import-->
-<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-<!--Example 1 Import-->
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
 	<meta name="title" content="Scott Shaneck."/>
     <meta name="author" content="Scott Shaneck"/>
     <meta name="description" content="My Information."/>
@@ -109,3 +74,33 @@ $(document).ready(function(){
   ga('send', 'pageview');
 
 </script>
+<script>
+var timeout	= 500;
+var closetimer	= 0;
+var ddmenuitem	= 0;
+
+function mopen(id)
+{	
+	mcancelclosetime();
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+}
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+document.onclick = mclose; 
+</script>	

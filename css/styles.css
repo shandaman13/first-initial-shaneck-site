@@ -23,11 +23,6 @@ img {
   width: 200px;
   height: 400px;
 }
-#form {
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	float: center;}
 #dropdown
 {	background: red;
 	float: left;
@@ -141,19 +136,6 @@ img {
   margin-top: 5%;
   color: #FFF;
 }  
-
- .me-img {
-  display: block;
-  margin: 0 auto;
-  margin-top: 7%;
-  width: 75px;
-  height: auto;
- }
-#form {
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	float: center;}
 #dropdown
 {	background: red;
 	float: left;
@@ -252,19 +234,6 @@ img {
     margin-top: 5%;
     color: #FFF;
   }
-
-  .me-img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 7%;
-    width: 100px;
-    height: auto;
-  }
-#form {
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	float: center;}
 #dropdown
 {	background: red;
 	float: left;
@@ -365,14 +334,6 @@ img {
     color: #FFF;
   }
 
-  .me-img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 7%;
-    width: 200px;
-    height: auto;
-  }
-
   .top-p {
     text-align: center;
     margin-top: 7%;
@@ -412,18 +373,7 @@ img {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
 {
-  .me-img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 3%;
-    width: 200px;
-    height: 200px;
-  }
-#form {
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	float: center;}
+
 #dropdown
 {	background: red;
 	float: left;
@@ -515,13 +465,6 @@ img {
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
 {
-  .me-img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 3%;
-    width: 200px;
-    height: 200px;
-  }
 
   .top-p {
     text-align: center;
